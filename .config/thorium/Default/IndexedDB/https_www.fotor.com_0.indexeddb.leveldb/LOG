@@ -1,6 +1,0 @@
-2023/12/24-15:31:06.930 2e65 Creating DB /home/endo/.config/thorium/Default/IndexedDB/https_www.fotor.com_0.indexeddb.leveldb since it was missing.
-2023/12/24-15:31:06.933 2e65 Reusing MANIFEST /home/endo/.config/thorium/Default/IndexedDB/https_www.fotor.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/24-15:39:37.850 2e66 Level-0 table #5: started
-2023/12/24-15:39:37.852 2e66 Level-0 table #5: 1739 bytes OK
-2023/12/24-15:39:37.854 2e66 Delete type=0 #3
-2023/12/24-15:39:37.855 2e66 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
