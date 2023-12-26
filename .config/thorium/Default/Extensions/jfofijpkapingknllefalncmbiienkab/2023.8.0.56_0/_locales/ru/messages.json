@@ -1,0 +1,126 @@
+{
+   "appDesc": {
+      "description": "Описание приложения, отображаемое в интернет-магазине.",
+      "message": "Блокирует опасные веб-сайты, распространяющие вредоносные программы, и предотвращает фишинговые атаки."
+   },
+   "blockpage000": {
+      "description": "",
+      "message": "Внимание!"
+   },
+   "blockpage001": {
+      "description": "",
+      "message": "Сайт заблокирован!"
+   },
+   "blockpage002": {
+      "description": "",
+      "message": "Хост:"
+   },
+   "blockpage003": {
+      "description": "",
+      "message": "Сайт был заблокирован, потому что может быть небезопасен."
+   },
+   "blockpage003_2": {
+      "description": "",
+      "message": "Настоятельно рекомендуется не продолжать."
+   },
+   "blockpage004": {
+      "description": "",
+      "message": "Причина:"
+   },
+   "blockpage005": {
+      "description": "",
+      "message": "Сообщить об ошибке"
+   },
+   "blockpage006": {
+      "description": "",
+      "message": "Все равно перейти на сайт"
+   },
+   "blockpage007": {
+      "description": "",
+      "message": "Заблокировано пользовательским правилом из [productname]"
+   },
+   "fake": {
+      "description": "",
+      "message": "Фейковые Новости"
+   },
+   "gambling": {
+      "description": "",
+      "message": "Азартные Игры"
+   },
+   "malicious": {
+      "description": "",
+      "message": "Подозрительная вредоносная программа"
+   },
+   "options001": {
+      "description": "",
+      "message": "Настройки Emsisoft Browser Security"
+   },
+   "options002": {
+      "description": "",
+      "message": "Не блокировать"
+   },
+   "options003": {
+      "description": "",
+      "message": "Веб-сайт"
+   },
+   "options004": {
+      "description": "",
+      "message": "Удалить"
+   },
+   "options005": {
+      "description": "",
+      "message": "Нет данных"
+   },
+   "optionsBlock": {
+      "description": "",
+      "message": "Блокировать"
+   },
+   "popup001": {
+      "description": "",
+      "message": "Блокировать опасные веб-сайты"
+   },
+   "popup002": {
+      "description": "",
+      "message": "Настройки исключений"
+   },
+   "popup003": {
+      "description": "",
+      "message": "Сообщить как об опасном сайте"
+   },
+   "popup004": {
+      "description": "",
+      "message": "Сайт добавлен в исключения. "
+   },
+   "popup005": {
+      "description": "",
+      "message": "Удалить из исключений"
+   },
+   "popup006": {
+      "description": "",
+      "message": "Добавить сайт в исключения"
+   },
+   "popup007": {
+      "description": "",
+      "message": "Помощь"
+   },
+   "porn": {
+      "description": "",
+      "message": "Порно"
+   },
+   "scam": {
+      "description": "",
+      "message": "Отмечен на ScamAdviser.com как возможно мошеннический"
+   },
+   "social": {
+      "description": "",
+      "message": "Социальные Сети"
+   },
+   "unwanted": {
+      "description": "",
+      "message": "Потенциально нежелательная"
+   },
+   "user": {
+      "description": "",
+      "message": "Пользовательское Правило"
+   }
+}
