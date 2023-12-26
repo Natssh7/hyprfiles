@@ -1,0 +1,26 @@
+{
+   "action": {
+      "default_icon": "assets/logo.png",
+      "default_popup": "popup.html"
+   },
+   "author": "Emsisoft Ltd",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "*://*/*", "https://alomar.emsisoft.com/*" ],
+   "icons": {
+      "128": "assets/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1TnIvv6t0HrNwZaK4rJJqn2YGJ7l+EpVNp04H+JYH502ZD9E9F18sSI/P0pM5Dwla+712NU7CnwBUO4tXNn8fFotS6qUMVyCGw6UJo2MnZl/WiJ6sWBvt1cV7tQZ2orAl/lGagMdibIORQsJ4vbpe5rZmhdg++wonevo7wQ5ogZ5TE4UkHflG3egLYRdleGPP1D/YP7eSe1Ny1lDT3bQ3K7DlAVgl2CrwWiajUEj/SOCYSF+dBhciqDC811nPlS4thNhsjSHd9uxLKj92IxZSD/lQrpSnlQ+1+enjrXCxc7Ah9trinkewDwtyrre8KI55ZYm70x3TIW8YRRYgHS6+QIDAQAB",
+   "manifest_version": 3,
+   "name": "Emsisoft Browser Security",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "tabs", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2023.8.0.56"
+}

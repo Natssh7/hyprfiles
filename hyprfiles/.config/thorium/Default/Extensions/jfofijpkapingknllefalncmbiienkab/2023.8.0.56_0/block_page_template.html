@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emsisoft Browser Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+	<style>
+        * {box-sizing: border-box;}
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: #58676b;
+            line-height: 1.428571428571429;
+        }
+
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+		.attention {
+			font-weight: bold;
+		}
+		
+		.verdict {
+			padding-top: 20px;
+		}
+		
+        .color-error {
+            color: #e62f1c;
+        }
+
+        a {
+            font-size: 100%;
+            background: 0 0;
+            color: #0385c6;
+            cursor: pointer;
+            text-decoration: none;
+            transition: none 86ms ease-out;
+        }
+
+        a:hover {
+            color: #04a9fb;
+            text-decoration: underline;
+        }
+
+        header {
+            height: 76px;
+            background: rgb(223, 67, 67);
+        }
+
+        header .container {
+            display: block;
+			padding-top: 24px;
+        }
+
+        main {
+            min-height: 100%;
+            padding: 50px 0;
+            height: calc(100vh - 76px - 56px);
+        }
+
+        main > .container {
+			text-align: center;
+        }
+
+        main .eam-icon-wrapper {
+        }
+
+        main h1 {
+            margin: 0;
+            line-height: inherit;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        main p {
+            margin: 0 0 20px 0;
+        }
+
+        main .content-footer {
+            margin-top: 40px;
+        }
+
+        main .content-footer a {
+			display: inline-block;
+			padding: 8px 10px;
+			border-radius: 4px;
+			height: 40px;
+			min-width: 150px;
+            margin: 0 20px;
+			color: rgb(223, 67, 67);
+            text-decoration: none;
+        }
+
+        main .content-footer a.hltd {
+			color: rgb(255, 255, 255);
+			background-color: rgb(223, 67, 67);
+        }
+
+		main .content-footer a:hover {
+			color: rgb(255, 255, 255);
+			background-color: rgb(223, 67, 67);
+			filter: brightness(120%);
+		}
+
+        footer {
+            height: 56px;
+            background-color: rgb(223, 67, 67);
+            color: #fff;
+            font-size: 13px;
+        }
+
+        footer .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .logo-link {
+            display: block;
+            width: 100%;
+            max-height: 31px;
+            text-decoration: none;
+			text-align: center;
+        }
+
+        .logo {
+            width: 138px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+	<header>
+	<div class="container">
+		<a href="https://www.emsisoft.com/" class="logo-link">
+			<img src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgNDIuNiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE3LjQsNDIuNlYzNi44SDYuNVYyNC43aDkuNFYxOC44SDYuNVY3LjFIMTcuNFYxLjJIMFY0Mi42WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMC44KSIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTUyLDQyLjZWMS4ySDQ2TDM4LjEsMjMsMzAsMS4ySDI0LjJWNDIuNmg2LjVWMTcuMWw1LjUsMTYuN2gzLjZsNS43LTE3VjQyLjZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNODAuMywzMS4yYzAtNy0xLjMtOS42LTYuMy0xMS42bC00LjktMmMtMi45LTEuMi0zLjQtMi4yLTMuNC01LjZhNi4wOCw2LjA4LDAsMCwxLDEuMS00LjEsMy41MSwzLjUxLDAsMCwxLDIuOC0xLjIsMy41OSwzLjU5LDAsMCwxLDIuOSwxLjJjLjksMS4xLDEsMi42LDEsNC40SDgwYzAtNC0uOC02LjktMi45LTlDNzUuNCwxLjcsNzMsLjgsNjkuNy44YTEwLjIyLDEwLjIyLDAsMCwwLTcuMSwyLjVjLTIuMywyLTMuNCw1LjEtMy40LDguOCwwLDYuNCwxLjYsOC43LDUuOCwxMC40bDQuOSwyYzMuMiwxLjMsMy45LDIuNCwzLjksNi44LDAsMi4yLS4yLDMuNi0xLjEsNC42YTMuNTksMy41OSwwLDAsMS0zLjEsMS4yLDQsNCwwLDAsMS0zLTEuMWMtLjktMS0xLjItMi40LTEuMi00LjdINTguOWMwLDQuNC43LDYuOSwyLjcsOC45LDEuNywxLjcsNC40LDIuNyw4LDIuN3M2LjQtMS4xLDguMS0yLjdDNzkuNywzOC4zLDgwLjMsMzUuNCw4MC4zLDMxLjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNOTQuMSw0Mi42VjEuMkg4Ny42VjQyLjZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTIyLjUsMzEuNGMwLTctMS4zLTkuNi02LjMtMTEuNmwtNC45LTJjLTIuOS0xLjItMy40LTIuMi0zLjQtNS42QTYuMDgsNi4wOCwwLDAsMSwxMDksOC4xYTMuNTEsMy41MSwwLDAsMSwyLjgtMS4yLDMuNTksMy41OSwwLDAsMSwyLjksMS4yYy45LDEuMSwxLDIuNiwxLDQuNGg2LjVjMC00LS44LTYuOS0yLjktOS0xLjctMS42LTQuMS0yLjUtNy40LTIuNWExMC4yMiwxMC4yMiwwLDAsMC03LjEsMi41Yy0yLjMsMi0zLjQsNS4xLTMuNCw4LjgsMCw2LjQsMS42LDguNyw1LjgsMTAuNGw0LjksMmMzLjIsMS4zLDMuOSwyLjQsMy45LDYuOCwwLDIuMi0uMiwzLjYtMS4xLDQuNmEzLjU5LDMuNTksMCwwLDEtMy4xLDEuMiw0LDQsMCwwLDEtMy0xLjFjLS45LTEtMS4yLTIuNC0xLjItNC43SDEwMWMwLDQuNC43LDYuOSwyLjcsOC45LDEuNywxLjcsNC40LDIuNyw4LDIuN3M2LjQtMS4xLDguMS0yLjdDMTIxLjksMzguNSwxMjIuNSwzNS43LDEyMi41LDMxLjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTUxLjEsMjIuMmMwLTkuOC0uMi0xNC40LTMtMTcuNmExMCwxMCwwLDAsMC04LTMuNiw5LjY5LDkuNjksMCwwLDAtOCwzLjZjLTIuNywzLjMtMyw3LjgtMywxNy42cy4zLDE0LjMsMywxNy42YTEwLDEwLDAsMCwwLDgsMy42LDkuNjksOS42OSwwLDAsMCw4LTMuNkMxNTAuOSwzNi42LDE1MS4xLDMyLDE1MS4xLDIyLjJabS02LjUsMGMwLDcuNi0uMiwxMS44LTEuNCwxMy43YTMuNTUsMy41NSwwLDAsMS0zLjEsMS42LDMuMjQsMy4yNCwwLDAsMS0zLjEtMS42Yy0xLjItMi0xLjUtNi4yLTEuNS0xMy43cy4yLTExLjgsMS41LTEzLjdhMy40MywzLjQzLDAsMCwxLDMuMS0xLjYsMy4xNCwzLjE0LDAsMCwxLDMuMSwxLjZDMTQ0LjQsMTAuNCwxNDQuNiwxNC42LDE0NC42LDIyLjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTc1LjQsNy4zVjEuNUgxNTcuOVY0Mi45aDYuNlYyNWg5LjNWMTkuMWgtOS4zVjcuM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuOCkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yMDAsNy4zVjEuNUgxNzkuNlY3LjNoNi45VjQyLjlIMTkzVjcuM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTAuOCkiLz48L3N2Zz4=" alt="" class="logo">
+		</a>
+	</div>
+	</header>
+	<main>
+        <div class="container">
+            <div class="eam-icon-wrapper">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTYxLjggMTMuNzMzM0w0My40NjY3IDYuODY2NjdDNDEuNTY2NyA2LjE2NjY3IDM4LjQ2NjcgNi4xNjY2NyAzNi41NjY3IDYuODY2NjdMMTguMjMzNCAxMy43MzMzQzE0LjcgMTUuMDY2NyAxMS44MzM0IDE5LjIgMTEuODMzNCAyMi45NjY3VjQ5Ljk2NjdDMTEuODMzNCA1Mi42NjY3IDEzLjYgNTYuMjMzMyAxNS43NjY3IDU3LjgzMzNMMzQuMSA3MS41MzMzQzM3LjMzMzQgNzMuOTY2NyA0Mi42MzM0IDczLjk2NjcgNDUuODY2NyA3MS41MzMzTDY0LjIgNTcuODMzM0M2Ni4zNjY3IDU2LjIgNjguMTMzNCA1Mi42NjY3IDY4LjEzMzQgNDkuOTY2N1YyMi45NjY3QzY4LjE2NjcgMTkuMiA2NS4zIDE1LjA2NjcgNjEuOCAxMy43MzMzWk00OC45MzM0IDQ2LjU2NjdDNDguNDMzNCA0Ny4wNjY3IDQ3LjggNDcuMyA0Ny4xNjY3IDQ3LjNDNDYuNTMzNCA0Ny4zIDQ1LjkgNDcuMDY2NyA0NS40IDQ2LjU2NjdMNDAuMSA0MS4yNjY3TDM0LjYzMzQgNDYuNzMzM0MzNC4xMzM0IDQ3LjIzMzMgMzMuNSA0Ny40NjY3IDMyLjg2NjcgNDcuNDY2N0MzMi4yMzM0IDQ3LjQ2NjcgMzEuNiA0Ny4yMzMzIDMxLjEgNDYuNzMzM0MzMC4xMzM0IDQ1Ljc2NjcgMzAuMTMzNCA0NC4xNjY3IDMxLjEgNDMuMkwzNi41NjY3IDM3LjczMzNMMzEuMjMzNCAzMi40QzMwLjI2NjcgMzEuNDMzMyAzMC4yNjY3IDI5LjgzMzMgMzEuMjMzNCAyOC44NjY3QzMyLjIgMjcuOSAzMy44IDI3LjkgMzQuNzY2NyAyOC44NjY3TDQwLjA2NjcgMzQuMTY2N0w0NS4yMzM0IDI5QzQ2LjIgMjguMDMzMyA0Ny44IDI4LjAzMzMgNDguNzY2NyAyOUM0OS43MzM0IDI5Ljk2NjcgNDkuNzMzNCAzMS41NjY3IDQ4Ljc2NjcgMzIuNTMzM0w0My42IDM3LjdMNDguOSA0M0M0OS45IDQ0IDQ5LjkgNDUuNTY2NyA0OC45MzM0IDQ2LjU2NjdaIiBmaWxsPSIjREY0MzQzIi8+Cjwvc3ZnPgo=" alt="" class="eam-icon" width="55px" height="66px">
+            </div>
+            <div class="main-content">
+                <h1><span class="localize-blockpage000 attention">Attention!</span></h1>
+                <h1><span class="localize-blockpage001">Website blocked!</span></h1>
+
+				<p/>
+                <p><strong><span class="localize-blockpage002">Host:</span> <span id="hostnameSpan"></span></strong></p>
+
+                <p>
+					<span class="localize-blockpage003">This website has been blocked because it may be dangerous.</span>
+					<br/>
+					<span non-rule class="localize-blockpage003_2">It is strongly recommended that you do not continue.</span>
+				</p>
+
+                <div id="byRule"><span id="productName"></span></div>
+
+                <div class="verdict" id="byVerdict">
+					<div><strong><span class="localize-blockpage004">Reason:</span> <span id="verdictSpan"></span></strong></div>
+
+					<div id = "actionBtns" class="content-footer">
+                      <a href="#" id="reportLink" class="localize-blockpage005">Report an error</a>
+                      <a href="#" id="visitAnywayLink" class="localize-blockpage006 hltd">Visit the site anyway</a>
+					</div>
+                </div>
+            </div>
+        </div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footer-current-time"></div>
+		</div>
+	</footer>
+    <script type="text/javascript" src="lib/browser-polyfill.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/tools.js"></script>
+	<script type="text/javascript" src="js/block_page_script.js"></script>
+</body>
+</html>
