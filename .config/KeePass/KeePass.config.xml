@@ -42,9 +42,9 @@
 	<Logging />
 	<MainWindow>
 		<X>975</X>
-		<Y>73</Y>
-		<Width>458</Width>
-		<Height>1021</Height>
+		<Y>585</Y>
+		<Width>940</Width>
+		<Height>509</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
 		<SplitterVerticalFrac>0.25</SplitterVerticalFrac>
 		<ToolBar />
