@@ -1,0 +1,78 @@
+{
+   "author": "Kee Vault Ltd",
+   "background": {
+      "page": "./dist/background/index.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_area": "navbar",
+      "default_icon": {
+         "16": "./assets/images/16.png",
+         "32": "./assets/images/32.png",
+         "48": "./assets/images/48.png",
+         "64": "./assets/images/64.png"
+      },
+      "default_popup": "./dist/popup/index.html",
+      "default_title": "Kee"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+Shift+K"
+         }
+      },
+      "detect-forms": {
+         "description": "__MSG_Menu_Button_fillCurrentDocument_label__",
+         "suggested_key": {
+            "default": "Alt+Shift+M"
+         }
+      },
+      "generate-password": {
+         "description": "__MSG_Menu_Button_copyNewPasswordToClipboard_label__",
+         "suggested_key": {
+            "default": "Alt+Shift+G"
+         }
+      },
+      "primary-action": {
+         "description": "__MSG_KB_shortcut_simple_2_desc__",
+         "suggested_key": {
+            "default": "Alt+Shift+V"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "https://app-dev.kee.pm:8087/*", "https://app-beta.kee.pm/*", "https://app.kee.pm/*", "https://keevault.pm/*" ],
+      "js": [ "./dist/page/index.global.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "include_globs": [ "https://app-dev.kee.pm:8087/*", "https://app-beta.kee.pm/*", "https://app.kee.pm/*", "https://keevault.pm/*" ],
+      "js": [ "./dist/vault/index.global.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "Kee adds private, secure and easy password management features which save time and keep your private data more secure.",
+   "icons": {
+      "128": "./assets/images/128.png",
+      "16": "./assets/images/16.png",
+      "32": "./assets/images/32.png",
+      "48": "./assets/images/48.png",
+      "64": "./assets/images/64.png",
+      "96": "./assets/images/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwK9+rP5tlhk6p/wmArq18enfD/RcRzz80q4c+WOBLtPmScAJuMH2CgbRSJU914NKR64+2YjFQhsVI/Z8Q1X0GuFYlMjckaoYQhlW9Y8Wz0DeY5rjfKjuwRFdm1cC4OShXOk/586yC8+BaXrWtkBO+d7dn4UwpCQpRCv0NUfd7TBvx0qZ/tXuIt218ZsFZJUbPeLYLfn2Cg7A17L3jkEmK0atSeFYlm9RH6fdX05KpmXJCjUtsnz/w9imzv9NL7nEzIjZFoPHIBLgmYJ6JkOuJdl1TFiUA1Ai6MTmrWFfvW2/nOGyFQJzRk30QUfhq5w2cNiTSfw7OigALey9OqxQ2QIDAQAB",
+   "manifest_version": 2,
+   "name": "Kee - Password Manager",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "./dist/settings/index.html"
+   },
+   "permissions": [ "tabs", "contextMenus", "storage", "clipboardWrite", "webNavigation", "activeTab", "privacy", "webRequestBlocking", "webRequest", "\u003Call_urls>", "notifications", "unlimitedStorage", "idle" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.11.13",
+   "version_name": "3.11.13",
+   "web_accessible_resources": [ "dist/panels/*" ]
+}

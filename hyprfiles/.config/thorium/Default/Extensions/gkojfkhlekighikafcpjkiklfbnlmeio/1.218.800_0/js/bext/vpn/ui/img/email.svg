@@ -1,0 +1,13 @@
+<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="email icon">
+<path id="Vector" d="M16 11.8636C16 13.0455 15.2131 14 14.2389 14H1.76112C0.786885 14 0 13.0455 0 11.8636V2C0 0.818182 0.786885 0 1.76112 0H14.2014C15.1756 0 16 0.818182 16 2V11V11.8636Z" fill="url(#paint0_linear_2597_24319)"/>
+<path id="Vector_2" d="M14.2014 1H1.76112C0.786885 1 0 1.17273 0 2V3L6.44497 8.35C7.26932 9.05 8.65574 9.05 9.51756 8.35L16 3V2C16 1.17273 15.2131 1 14.2389 1L14.2014 1Z" fill="#ABABAB"/>
+<path id="Vector_3" d="M14.2014 0H1.76112C0.786885 0 0 0.672727 0 1.5V2L6.44497 7.35C7.26932 8.05 8.65574 8.05 9.51756 7.35L16 2V1.5C16 0.672727 15.2131 0 14.2389 0L14.2014 0Z" fill="#E3E3E3"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2597_24319" x1="7" y1="7" x2="10" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CBCBCB"/>
+<stop offset="1" stop-color="#ADADAD"/>
+</linearGradient>
+</defs>
+</svg>
