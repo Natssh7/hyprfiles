@@ -1,0 +1,102 @@
+{
+   "appDesc": {
+      "description": "在线商店中显示的应用程序说明。",
+      "message": "阻止访问钓鱼欺诈和传播病毒的网站。"
+   },
+   "blockpage001": {
+      "description": "",
+      "message": "阻止访问！"
+   },
+   "blockpage002": {
+      "description": "",
+      "message": "网址："
+   },
+   "blockpage003": {
+      "description": "",
+      "message": "访问已被拦截，因为它可能很危险，"
+   },
+   "blockpage003_2": {
+      "description": "",
+      "message": "强烈建议您立即关闭此网页。"
+   },
+   "blockpage004": {
+      "description": "",
+      "message": "原因："
+   },
+   "blockpage005": {
+      "description": "",
+      "message": "误报申诉"
+   },
+   "blockpage006": {
+      "description": "",
+      "message": "我不怕~继续打开这个网页！"
+   },
+   "blockpage007": {
+      "description": "",
+      "message": "已被[productname]自定义规则拦截"
+   },
+   "malicious": {
+      "description": "",
+      "message": "存在钓鱼欺诈或病毒攻击的风险"
+   },
+   "options001": {
+      "description": "",
+      "message": "Emsisoft浏览器安全扩展设置"
+   },
+   "options002": {
+      "description": "",
+      "message": "未拦截"
+   },
+   "options003": {
+      "description": "",
+      "message": "网站"
+   },
+   "options004": {
+      "description": "",
+      "message": "删除"
+   },
+   "options005": {
+      "description": "",
+      "message": "该列表为空"
+   },
+   "optionsBlock": {
+      "description": "",
+      "message": "拦截"
+   },
+   "popup001": {
+      "description": "",
+      "message": "阻止危险的网站"
+   },
+   "popup002": {
+      "description": "",
+      "message": "管理白名单"
+   },
+   "popup003": {
+      "description": "",
+      "message": "报告此网站是危险的"
+   },
+   "popup004": {
+      "description": "",
+      "message": "该网站在白名单中。"
+   },
+   "popup005": {
+      "description": "",
+      "message": "删除白名单"
+   },
+   "popup006": {
+      "description": "",
+      "message": "将此网站添加到白名单"
+   },
+   "popup007": {
+      "description": "",
+      "message": "帮助"
+   },
+   "thanks": {
+      "description": "",
+      "message": "网址已上报，谢谢！"
+   },
+   "unwanted": {
+      "description": "",
+      "message": "可能不需要的"
+   }
+}

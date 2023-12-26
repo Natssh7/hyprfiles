@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing:border-box;
+		}
+		html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #58676b;
+            line-height: 1.428571428571429;
+            width:298px;
+        }
+
+        header { 
+        	padding: 12px;
+        	overflow:hidden;
+        	border-bottom: 1px solid rgba(0,0,0,0.07);
+    	}
+
+    	header .logo > img {
+    		width:24px;
+    		vertical-align: middle;
+    		margin-right:6px;
+    	}
+
+        header div.logo {
+			float:left;
+			font-weight:bold;
+			color:grey;
+        }
+
+        header div.settings-icon{
+			float:right;
+        }
+
+        header div.settings-icon > img {
+    		width:24px;
+    		vertical-align: middle;
+    		margin-right:6px;
+    	}
+
+        main {
+        	overflow:hidden;
+        }
+
+        main > div {
+        	padding:12px;
+        	border-bottom: 1px solid rgba(0,0,0,0.07);
+        }
+
+        main > div:nth-child(2){
+        	background:#f7f7f7;
+        }
+
+        main > div > div {
+        	margin:8px 0;
+            position: relative;
+        }
+
+        footer{
+        	padding:12px;
+        	overflow:hidden;
+        }
+
+        footer > div.help {
+			float:left;
+        }
+
+        footer > div.help img {
+    		vertical-align: top;
+    		margin-right:6px;
+    	}
+        footer > div.help a{
+            color:#58676b;
+        }
+
+        footer > div.emsisoft-link{
+        	float:right;
+        }
+		
+		a {
+			color:#3c99cd;
+			text-decoration:none;
+		}
+
+		.add-exclusion-container {
+			display:none;
+		}
+
+		#stateToggleBtn {
+			position: absolute;
+			cursor:pointer;
+            top:-4px;
+            right:0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo"><img src="assets/logo.png" alt="">Emsisoft Browser Security</div>
+	</header>
+	<main>
+		<div>
+			<div><span class="localize-popup001"></span> <img src="assets/toggle_on.png" alt="" id="stateToggleBtn"></div>
+			<div><a href="#" id="manageExclusionsLink"><span class="localize-popup002"></span></a></div>
+		</div>
+		<div id="linksContainer">
+			<div id="reportLinkDiv"><span id="thanks" class="localize-thanks"></span><a href="#" id="reportLink"><span class="localize-popup003"></span></a></div>
+			<div id="removeExclusion"><span class="localize-popup004"></span><a href="#" id="removeExclusionLink"><span class="localize-popup005"></span></a></div>
+			<div class="add-exclusion-container"><a href="#" id="exludeThisSiteLink"><span class="localize-popup006"></span></a></div>
+		</div>
+	</main>
+	<footer>
+		<div class="help"><a href="https://help.emsisoft.com" target="_blank"><img src="assets/help.png" alt=""><span class="localize-popup007"></span></a></div>
+		<div class="emsisoft-link"><a href="https://www.emsisoft.com" target="_blank">www.emsisoft.com</a></div>
+	</footer>
+    <script type="text/javascript" src="lib/browser-polyfill.min.js"></script>
+	  <script src="lib/jquery.min.js"></script>
+    <script src="js/tools.js"></script>
+	  <script src="js/popup.js"></script>
+</body>
+</html>

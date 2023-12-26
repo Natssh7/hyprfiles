@@ -1,0 +1,134 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Blocks dangerous websites that distribute malware and prevents phishing attacks."
+   },
+   "blockpage000": {
+      "description": "",
+      "message": "Attention!"
+   },
+   "blockpage001": {
+      "description": "",
+      "message": "Website blocked!"
+   },
+   "blockpage002": {
+      "description": "",
+      "message": "Host:"
+   },
+   "blockpage003": {
+      "description": "",
+      "message": "This website has been blocked because it may be dangerous."
+   },
+   "blockpage003_2": {
+      "description": "",
+      "message": "It is strongly recommended that you do not continue."
+   },
+   "blockpage004": {
+      "description": "",
+      "message": "Reason:"
+   },
+   "blockpage005": {
+      "description": "",
+      "message": "Report an error"
+   },
+   "blockpage006": {
+      "description": "",
+      "message": "Visit the site anyway"
+   },
+   "blockpage007": {
+      "description": "",
+      "message": "Blocked by a custom rule in [productname]."
+   },
+   "fake": {
+      "description": "",
+      "message": "Fake News"
+   },
+   "gambling": {
+      "description": "",
+      "message": "Gambling"
+   },
+   "malicious": {
+      "description": "",
+      "message": "Suspected Malware"
+   },
+   "options001": {
+      "description": "",
+      "message": "Emsisoft Browser Security Settings"
+   },
+   "options002": {
+      "description": "",
+      "message": "Don't block"
+   },
+   "options003": {
+      "description": "",
+      "message": "Website"
+   },
+   "options004": {
+      "description": "",
+      "message": "Remove"
+   },
+   "options005": {
+      "description": "",
+      "message": "The list is empty"
+   },
+   "optionsBlock": {
+      "description": "",
+      "message": "Block"
+   },
+   "optionsNoRemoveHint": {
+      "description": "",
+      "message": "Managed in [productname]"
+   },
+   "popup001": {
+      "description": "",
+      "message": "Block dangerous websites"
+   },
+   "popup002": {
+      "description": "",
+      "message": "Manage exclusions"
+   },
+   "popup003": {
+      "description": "",
+      "message": "Report this site as dangerous"
+   },
+   "popup004": {
+      "description": "",
+      "message": "This site is excluded. "
+   },
+   "popup005": {
+      "description": "",
+      "message": "Remove exclusion"
+   },
+   "popup006": {
+      "description": "",
+      "message": "Exclude this site"
+   },
+   "popup007": {
+      "description": "",
+      "message": "Help"
+   },
+   "porn": {
+      "description": "",
+      "message": "Porn"
+   },
+   "scam": {
+      "description": "",
+      "message": "Reported as possible scam by ScamAdviser.com"
+   },
+   "social": {
+      "description": "",
+      "message": "Social Media"
+   },
+   "thanks": {
+      "description": "",
+      "message": "Site reported. Thank you!"
+   },
+   "unwanted": {
+      "description": "",
+      "message": "Potentially Unwanted"
+   },
+   "user": {
+      "description": "",
+      "message": "Custom Rule"
+   }
+}

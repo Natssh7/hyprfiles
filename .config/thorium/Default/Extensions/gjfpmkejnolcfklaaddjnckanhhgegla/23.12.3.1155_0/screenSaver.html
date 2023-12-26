@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Guardio Idle</title>
+        <script src="screenSaver.js"></script>
+        <style type="text/css">
+            .tooltip {
+                color: gray;
+            }
+            .enclose {
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                padding-bottom: 38px;
+                margin-left: -50px;
+            }
+            .ghost {
+                opacity: 0.8;
+            }
+            .turnoff {
+                font-size: small;
+                font-style: italic;
+                opacity: 0.8;
+            }
+            .body {
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+    </head>
+
+    <body
+        style="background-color: #f2f5f7; -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+font-family: roboto; text-align: right"
+        unselectable="on"
+        onselectstart="return false;"
+        onmousedown="return false;"
+        class="popup"
+    >
+        <div class="enclose">
+            <span class="ghost">
+                <img src="assets/logo.png" style="height:auto;width:auto" />
+                <br />
+                <span class="tooltip">
+                    Guardio screen saver protects your<br />
+                    privacy when you're away<br />
+                    <span class="turnoff">
+                        To turn off, click the Guardio icon on the top bar
+                    </span>
+                </span>
+            </span>
+        </div>
+    </body>
+</html>

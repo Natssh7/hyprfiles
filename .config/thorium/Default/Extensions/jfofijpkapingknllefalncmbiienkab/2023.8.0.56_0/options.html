@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emsisoft Browser Security</title>
+	<style>
+        * {box-sizing: border-box;}
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: #58676b;
+            line-height: 1.428571428571429;
+        }
+
+        .main-content {
+        	width:100%;
+        }
+
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .color-error {
+            color: #e62f1c;
+        }
+
+        a {
+            font-size: 100%;
+            background: 0 0;
+            color: #0385c6;
+            cursor: pointer;
+            text-decoration: none;
+            transition: none 86ms ease-out;
+        }
+
+        a:hover {
+            color: #04a9fb;
+            text-decoration: underline;
+        }
+
+        header {
+            height: 76px;
+            border-bottom: 2px solid #0385c6;
+            background: #fff;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        main {
+            min-height: 100%;
+            padding: 50px 0;
+            height: calc(100vh - 76px - 56px);
+            overflow: auto;
+        }
+
+        main > .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        main .eam-icon-wrapper {
+            width: 100px;
+            height: 100px;
+            margin-right: 50px;
+        }
+
+        main h1 {
+            margin: 0 0 20px 0;
+            line-height: inherit;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        main p {
+            margin: 20px 0 20px 0;
+        }
+
+        main .content-footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #d1d6d7;
+        }
+
+        main .content-footer p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            height: 56px;
+            border-top: 5px solid #d1d8df;
+            background-color: #8c9db0;
+            color: #fff;
+            font-size: 13px;
+        }
+
+        footer .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .logo-link {
+            display: block;
+            width: 138px;
+            max-height: 31px;
+            text-decoration: none;
+        }
+
+        .logo {
+            width: 138px;
+            height: auto;
+        }
+
+        div.hosts-table {
+        	width: 100%;
+			
+        }
+
+        div.hosts-table strong {
+        	color:#7a8693;
+        }
+
+        div.hosts-table div.header {
+    		background: #fafbfd;
+    		border: 1px solid #dbdbdb;
+    		border-radius:8px;
+    		border-bottom-right-radius:0px;
+    		border-bottom-left-radius:0px;
+        }
+		
+        div.hosts-table div.body {
+	    	overflow: hidden;
+	    	border: 1px solid #dbdbdb;
+	    	border-top: 0px;
+	    	border-radius:8px;
+			border-top-left-radius:0px;
+			border-top-right-radius:0px;
+        }
+
+        div.hosts-table div.body div.right img{
+            cursor:pointer;
+        }
+        
+        div.hosts-table div.body div.right img[External] {
+          cursor: default;
+          opacity: 0.4;
+          filter: grayscale(100%);
+          -moz-filter: grayscale(100%);
+          -ms-filter: grayscale(100%);
+          -o-filter: grayscale(100%);
+          filter: gray; /* IE6-9 */
+          -webkit-filter: grayscale(100%);
+        }  
+
+        div.hosts-table div.row {
+        	overflow:hidden;
+        } 
+        div.hosts-table div.row:not(:last-child){
+        	border-bottom: 1px solid #dbdbdb;
+        } 
+		
+		div.hosts-table div.left {
+			float: left;
+			margin-left:12px;
+			padding:8px 0;
+			
+		}
+
+		div.hosts-table div.right {
+		    float: right;
+    		width: 10%;
+    		padding:8px 0;
+    		text-align: center;
+		}
+        
+    </style>
+</head>
+<body>
+	<header>
+<div class="container">
+    <a href="https://www.emsisoft.com/" class="logo-link">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCAyMDAgNDQiPjxwYXRoIGZpbGw9IiMwMzg1YzYiIGQ9Ik0xNy40IDQyLjZ2LTUuOEg2LjVWMjQuN2g5LjR2LTUuOUg2LjVWNy4xaDEwLjlWMS4ySDB2NDEuNHoiLz48cGF0aCBmaWxsPSIjMDM4NWM2IiBkPSJNNTIgNDIuNlYxLjJoLTZMMzguMSAyMyAzMCAxLjJoLTUuOHY0MS40aDYuNVYxNy4xbDUuNSAxNi43aDMuNmw1LjctMTd2MjUuOHoiLz48cGF0aCBmaWxsPSIjMDM4NWM2IiBkPSJNODAuMyAzMS4yYzAtNy0xLjMtOS42LTYuMy0xMS42bC00LjktMmMtMi45LTEuMi0zLjQtMi4yLTMuNC01LjYgMC0xLjguMy0zLjIgMS4xLTQuMS42LS43IDEuNS0xLjIgMi44LTEuMiAxLjQgMCAyLjMuNSAyLjkgMS4yLjkgMS4xIDEgMi42IDEgNC40SDgwYzAtNC0uOC02LjktMi45LTlDNzUuNCAxLjcgNzMgLjggNjkuNy44Yy0zIDAtNS4zLjktNy4xIDIuNS0yLjMgMi0zLjQgNS4xLTMuNCA4LjggMCA2LjQgMS42IDguNyA1LjggMTAuNGw0LjkgMmMzLjIgMS4zIDMuOSAyLjQgMy45IDYuOCAwIDIuMi0uMiAzLjYtMS4xIDQuNi0uNi44LTEuNiAxLjItMy4xIDEuMnMtMi40LS41LTMtMS4xYy0uOS0xLTEuMi0yLjQtMS4yLTQuN2gtNi41YzAgNC40LjcgNi45IDIuNyA4LjkgMS43IDEuNyA0LjQgMi43IDggMi43IDMuNyAwIDYuNC0xLjEgOC4xLTIuNyAyLTEuOSAyLjYtNC44IDIuNi05eiIvPjxwYXRoIGZpbGw9IiMwMzg1YzYiIGQ9Ik05NC4xIDQyLjZWMS4yaC02LjV2NDEuNHoiLz48cGF0aCBmaWxsPSIjNjg3NjdhIiBkPSJNMTIyLjUgMzEuNGMwLTctMS4zLTkuNi02LjMtMTEuNmwtNC45LTJjLTIuOS0xLjItMy40LTIuMi0zLjQtNS42IDAtMS44LjMtMy4yIDEuMS00LjEuNi0uNyAxLjUtMS4yIDIuOC0xLjIgMS40IDAgMi4zLjUgMi45IDEuMi45IDEuMSAxIDIuNiAxIDQuNGg2LjVjMC00LS44LTYuOS0yLjktOS0xLjctMS42LTQuMS0yLjUtNy40LTIuNS0zIDAtNS4zLjktNy4xIDIuNS0yLjMgMi0zLjQgNS4xLTMuNCA4LjggMCA2LjQgMS42IDguNyA1LjggMTAuNGw0LjkgMmMzLjIgMS4zIDMuOSAyLjQgMy45IDYuOCAwIDIuMi0uMiAzLjYtMS4xIDQuNi0uNi44LTEuNiAxLjItMy4xIDEuMnMtMi40LS41LTMtMS4xYy0uOS0xLTEuMi0yLjQtMS4yLTQuN0gxMDFjMCA0LjQuNyA2LjkgMi43IDguOSAxLjcgMS43IDQuNCAyLjcgOCAyLjcgMy43IDAgNi40LTEuMSA4LjEtMi43IDIuMS0xLjkgMi43LTQuNyAyLjctOXoiLz48cGF0aCBmaWxsPSIjNjg3NjdhIiBkPSJNMTUxLjEgMjIuMmMwLTkuOC0uMi0xNC40LTMtMTcuNi0xLjctMi00LjItMy42LTgtMy42cy02LjMgMS41LTggMy42Yy0yLjcgMy4zLTMgNy44LTMgMTcuNnMuMyAxNC4zIDMgMTcuNmMxLjcgMiA0LjIgMy42IDggMy42czYuMy0xLjUgOC0zLjZjMi44LTMuMiAzLTcuOCAzLTE3LjZ6bS02LjUgMGMwIDcuNi0uMiAxMS44LTEuNCAxMy43LS42LjktMS42IDEuNi0zLjEgMS42LTEuNiAwLTIuNS0uNi0zLjEtMS42LTEuMi0yLTEuNS02LjItMS41LTEzLjcgMC03LjYuMi0xMS44IDEuNS0xMy43LjYtLjkgMS41LTEuNiAzLjEtMS42czIuNi42IDMuMSAxLjZjMS4yIDEuOSAxLjQgNi4xIDEuNCAxMy43eiIvPjxwYXRoIGZpbGw9IiM2ODc2N2EiIGQ9Ik0xNzUuNCA3LjNWMS41aC0xNy41djQxLjRoNi42VjI1aDkuM3YtNS45aC05LjNWNy4zeiIvPjxwYXRoIGZpbGw9IiM2ODc2N2EiIGQ9Ik0yMDAgNy4zVjEuNWgtMjAuNHY1LjhoNi45djM1LjZoNi41VjcuM3oiLz48L3N2Zz4=" alt="" class="logo">
+    </a>
+</div>
+</header>
+	<main>
+        <div class="container">
+            <div class="eam-icon-wrapper">
+                <img src="data:image/png;base64,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" alt="" class="eam-icon" width="100px" height="100px">
+            </div>
+            <div class="main-content">
+            	<h1><span class="localize-options001"></span></h1>
+
+                <p><span class="localize-options002"></span></p>
+                <div class="hosts-table allow">
+                	<div class="header">
+                		<div class="row">
+                			<div class="left"><strong><span class="localize-options003"></span></strong></div>
+                			<div class="right"><strong><span class="localize-options004"></span></strong></div>
+                		</div>
+                	</div>
+                	<div class="body">
+                        <div class="row">
+                            <div class="left">
+                                <span class="localize-options005"></span>
+                            </div>
+                        </div>
+                	</div>
+                </div>
+
+                <div hidden>
+                <p><span class="localize-optionsBlock"></span></p>
+                <div class="hosts-table block">
+                	<div class="header">
+                		<div class="row">
+                			<div class="left"><strong><span class="localize-options003"></span></strong></div>
+                			<div class="right"><strong><span class="localize-options004"></span></strong></div>
+                		</div>
+                	</div>
+                	<div class="body">
+                        <div class="row">
+                            <div class="left">
+                                <span class="localize-options005"></span>
+                            </div>
+                        </div>
+                	</div>
+                </div>
+                </div>
+            </div>
+        </div>
+	</main>
+<footer>
+    <div class="container">
+        <div class="footer-current-time"></div>
+    </div>
+</footer>
+<script type="text/javascript" src="lib/browser-polyfill.min.js"></script>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/options.js"></script>
+</body>
+</html>

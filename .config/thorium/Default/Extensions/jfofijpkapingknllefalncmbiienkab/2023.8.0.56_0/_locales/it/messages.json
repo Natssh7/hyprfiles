@@ -1,0 +1,98 @@
+{
+   "appDesc": {
+      "description": "Descrizione dell'applicazione, mostrata nel web store.",
+      "message": "Blocca i siti pericolosi che distribuiscono i malware e previeni gli attacchi di phishing."
+   },
+   "blockpage001": {
+      "description": "",
+      "message": "Sito bloccato"
+   },
+   "blockpage002": {
+      "description": "",
+      "message": "Host:"
+   },
+   "blockpage003": {
+      "description": "",
+      "message": "Questo sito è stato bloccato perchè potrebbe essere pericoloso."
+   },
+   "blockpage003_2": {
+      "description": "",
+      "message": "Ti consigliamo di non continuare."
+   },
+   "blockpage004": {
+      "description": "",
+      "message": "Motivazione:"
+   },
+   "blockpage005": {
+      "description": "",
+      "message": "Segnala un errore"
+   },
+   "blockpage006": {
+      "description": "",
+      "message": "Visita lo stesso il sito"
+   },
+   "blockpage007": {
+      "description": "",
+      "message": "Bloccato da una regola personalizzata in [productname]"
+   },
+   "malicious": {
+      "description": "",
+      "message": "Sospetto di malware"
+   },
+   "options001": {
+      "description": "",
+      "message": "Impostazioni di Emsisoft Browser Protection"
+   },
+   "options002": {
+      "description": "",
+      "message": "Non bloccare"
+   },
+   "options003": {
+      "description": "",
+      "message": "Sito"
+   },
+   "options004": {
+      "description": "",
+      "message": "Rimuovi"
+   },
+   "options005": {
+      "description": "",
+      "message": "La lista è vuota"
+   },
+   "optionsBlock": {
+      "description": "",
+      "message": "Blocca"
+   },
+   "popup001": {
+      "description": "",
+      "message": "Blocca i siti pericolosi"
+   },
+   "popup002": {
+      "description": "",
+      "message": "Gestisci le esclusioni"
+   },
+   "popup003": {
+      "description": "",
+      "message": "Segnala questo sito come pericoloso"
+   },
+   "popup004": {
+      "description": "",
+      "message": "Questo sito è escluso. "
+   },
+   "popup005": {
+      "description": "",
+      "message": "Rimuovi esclusione"
+   },
+   "popup006": {
+      "description": "",
+      "message": "Escludi questo sito"
+   },
+   "popup007": {
+      "description": "",
+      "message": "Aiuto"
+   },
+   "unwanted": {
+      "description": "",
+      "message": "Potenzialmente non desiderato"
+   }
+}
