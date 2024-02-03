@@ -1,6 +1,0 @@
-2023/12/26-21:45:05.398 19e9 Reusing MANIFEST /home/endo/.config/thorium/Default/Sync Data/LevelDB/MANIFEST-000001
-2023/12/26-21:45:05.399 19e9 Recovering log #38
-2023/12/26-21:45:05.423 19e9 Reusing old log /home/endo/.config/thorium/Default/Sync Data/LevelDB/000038.log 
-2023/12/26-21:45:13.107 19c4 Level-0 table #43: started
-2023/12/26-21:45:13.115 19c4 Level-0 table #43: 92469 bytes OK
-2023/12/26-21:45:13.128 19c4 Delete type=0 #38

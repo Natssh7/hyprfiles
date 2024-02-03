@@ -1,6 +1,0 @@
-2023/12/25-01:10:22.493 bec Creating DB /home/endo/.config/thorium/Default/IndexedDB/https_forums.developer.nvidia.com_0.indexeddb.leveldb since it was missing.
-2023/12/25-01:10:22.506 bec Reusing MANIFEST /home/endo/.config/thorium/Default/IndexedDB/https_forums.developer.nvidia.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/25-01:13:02.739 bed Level-0 table #5: started
-2023/12/25-01:13:02.744 bed Level-0 table #5: 7998 bytes OK
-2023/12/25-01:13:02.753 bed Delete type=0 #3
-2023/12/25-01:13:02.753 bed Manual compaction at level-0 from (begin) .. (end); will stop at (end)
