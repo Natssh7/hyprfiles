@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Note : Old dotfiles in "old" folder
 
 This is my Nord themed Arch and Hyprland Rice
@@ -22,3 +23,6 @@ From Flatpak
 flatpak install flathub io.github.zen_browser.zen
 ```
 
+=======
+Old dotfiles for Arch Linux
+>>>>>>> origin/main
