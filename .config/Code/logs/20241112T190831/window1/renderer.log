@@ -1,0 +1,127 @@
+2024-11-12 19:08:34.499 [info] Started local extension host with pid 11660.
+2024-11-12 19:08:34.900 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:08:34.900 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:08:37.200 [info] [perf] Render performance baseline is 30ms
+2024-11-12 19:08:41.018 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-12 19:08:58.025 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:08:58.026 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:08:58.078 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:08:58.078 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:09:15.725 [error] access_denied: Error: access_denied
+	at Server.<anonymous> (/opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js:2:299088)
+	at Server.emit (node:events:519:28)
+	at parserOnIncoming (node:_http_server:1141:12)
+	at HTTPParser.parserOnHeadersComplete (node:_http_common:118:17)
+2024-11-12 19:09:49.183 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:09:49.184 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:09:49.184 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:10:15.166 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:10:15.167 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:10:15.167 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:10:15.168 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:10:15.168 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:10:15.168 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:11:19.861 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:11:19.908 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:11:19.908 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:11:19.921 [info] Settings Sync: Updated current session f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/ab10cc40-71f0-443b-b923-ea108f5a201d
+2024-11-12 19:11:19.922 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:11:19.922 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:11:45.962 [info] Settings Sync: Reset current session
+2024-11-12 19:11:45.962 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:11:45.963 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:11:45.963 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:11:45.987 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:11:45.987 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:11:45.988 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:13:05.663 [error] Cancelled: Error: Cancelled
+	at i (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:232913)
+	at async a.GitHubServer.login (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:233476)
+	at async a.GitHubAuthenticationProvider.createSession (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:228761)
+	at async tw.$createSession (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:3467)
+2024-11-12 19:13:14.805 [error] Cancelled: Error: Cancelled
+	at i (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:232913)
+	at async a.GitHubServer.login (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:233476)
+	at async a.GitHubAuthenticationProvider.createSession (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:228761)
+	at async tw.$createSession (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:3467)
+2024-11-12 19:14:47.868 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:14:47.908 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:14:47.908 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:14:47.911 [info] Settings Sync: Updated current session f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/1882ad25-ae1b-4553-bc16-76a6f2f1358e
+2024-11-12 19:14:47.912 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:14:47.912 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:15:32.453 [info] Settings Sync: Reset current session
+2024-11-12 19:15:32.454 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:15:32.454 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:15:32.454 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:15:32.459 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:15:32.459 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:15:32.460 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:16:00.384 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:16:00.384 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:16:00.385 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:16:00.390 [info] Settings Sync: Updated current session f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/f20614f2-2fca-464c-ba6d-a0133fc8be02
+2024-11-12 19:16:00.390 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:16:00.390 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:16:39.763 [info] Settings Sync: Reset current session
+2024-11-12 19:16:39.763 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:16:39.763 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:16:39.764 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:16:39.767 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:16:39.768 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:16:39.768 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:19:19.991 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:19.992 [info] Settings Sync: Authentication providers updated ["microsoft"]
+2024-11-12 19:19:19.992 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:19.992 [info] Settings Sync: Authentication providers updated ["microsoft"]
+2024-11-12 19:19:19.993 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-12 19:19:19.993 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:19.993 [info] Settings Sync: Authentication providers updated ["microsoft"]
+2024-11-12 19:19:20.027 [info] Started local extension host with pid 29544.
+2024-11-12 19:19:20.958 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:20.959 [info] Settings Sync: Authentication providers updated ["microsoft"]
+2024-11-12 19:19:21.238 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:21.239 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:19:21.239 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:21.239 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:19:21.240 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-12 19:19:21.240 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:21.240 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:19:21.942 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:21.942 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:19:27.178 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-12 19:19:46.200 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:46.201 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:19:46.201 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:46.202 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:19:46.202 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-12 19:19:46.202 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:46.203 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:19:46.266 [info] Started local extension host with pid 30372.
+2024-11-12 19:19:46.922 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:19:46.923 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:19:53.300 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-12 19:24:01.813 [error] Cancelled: Error: Cancelled
+	at i (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:232913)
+	at async a.GitHubServer.login (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:233476)
+	at async a.GitHubAuthenticationProvider.createSession (/opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js:1:228761)
+	at async tw.$createSession (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:3467)
+2024-11-12 19:24:08.430 [info] Settings Sync: Updating due to change in sessions
+2024-11-12 19:24:08.431 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:08.431 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:24:08.432 [info] Settings Sync: Updated current session 868f71265786f2ca
+2024-11-12 19:24:08.432 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:08.433 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:24:26.427 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:26.427 [info] Settings Sync: Authentication providers updated ["github"]
+2024-11-12 19:24:34.992 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:34.992 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:24:34.992 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:34.993 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:24:34.993 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-11-12 19:24:34.993 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:34.994 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:24:35.203 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-11-12 19:24:35.203 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-11-12 19:24:39.240 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2024-11-12 19:25:09.052 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.

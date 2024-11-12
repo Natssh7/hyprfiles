@@ -1,0 +1,161 @@
+2024-11-12 19:24:35.851 [info] Getting Manifest... james-yu.latex-workshop
+2024-11-12 19:24:35.851 [info] Getting Manifest... shd101wyy.markdown-preview-enhanced
+2024-11-12 19:24:35.851 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-11-12 19:24:35.851 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2024-11-12 19:24:35.851 [info] Getting Manifest... github.copilot
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-vscode-remote.remote-wsl
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-python.python
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-vscode.powershell
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-python.vscode-pylance
+2024-11-12 19:24:35.852 [info] Getting Manifest... github.copilot-chat
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-python.debugpy
+2024-11-12 19:24:35.852 [info] Getting Manifest... ms-dotnettools.csharp
+2024-11-12 19:24:35.958 [info] Installing extension: shd101wyy.markdown-preview-enhanced {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.959 [info] Installing extension: ms-vscode-remote.remote-wsl {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.959 [info] Installing extension: ms-vscode-remote.remote-containers {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.959 [info] Installing extension: ms-dotnettools.vscode-dotnet-runtime {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.959 [info] Installing extension: ms-dotnettools.csharp {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.960 [info] Installing extension: james-yu.latex-workshop {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.960 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.960 [info] Installing extension: ms-python.python {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.960 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.960 [info] Installing extension: ms-vscode.powershell {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.961 [info] Installing extension: github.copilot {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.961 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.961 [info] Installing extension: ms-azuretools.vscode-docker {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync"},"installOnlyNewlyAddedFromExtensionPack":true,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:24:35.961 [info] Installing the extension without checking dependencies and pack shd101wyy.markdown-preview-enhanced
+2024-11-12 19:24:35.961 [info] Installing the extension without checking dependencies and pack ms-vscode-remote.remote-wsl
+2024-11-12 19:24:35.962 [info] Installing the extension without checking dependencies and pack ms-vscode-remote.remote-containers
+2024-11-12 19:24:35.962 [info] Installing the extension without checking dependencies and pack ms-dotnettools.vscode-dotnet-runtime
+2024-11-12 19:24:35.962 [info] Installing the extension without checking dependencies and pack ms-dotnettools.csharp
+2024-11-12 19:24:35.962 [info] Installing the extension without checking dependencies and pack james-yu.latex-workshop
+2024-11-12 19:24:35.962 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2024-11-12 19:24:35.963 [info] Installing the extension without checking dependencies and pack ms-python.python
+2024-11-12 19:24:35.963 [info] Installing the extension without checking dependencies and pack ms-python.debugpy
+2024-11-12 19:24:35.963 [info] Installing the extension without checking dependencies and pack ms-vscode.powershell
+2024-11-12 19:24:35.963 [info] Installing the extension without checking dependencies and pack github.copilot
+2024-11-12 19:24:35.963 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2024-11-12 19:24:35.964 [info] Installing the extension without checking dependencies and pack ms-azuretools.vscode-docker
+2024-11-12 19:24:36.809 [info] Extension signature verification result for ms-vscode-remote.remote-containers: UnknownError. Executed: true. Duration: 19ms.
+2024-11-12 19:24:36.810 [info] Extension signature verification result for ms-vscode-remote.remote-wsl: UnknownError. Executed: true. Duration: 10ms.
+2024-11-12 19:24:37.017 [info] Extension signature verification result for ms-azuretools.vscode-docker: UnknownError. Executed: true. Duration: 14ms.
+2024-11-12 19:24:37.085 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.88.5: ms-vscode-remote.remote-wsl
+2024-11-12 19:24:37.097 [info] Renamed to /home/endo/.vscode/extensions/ms-vscode-remote.remote-wsl-0.88.5
+2024-11-12 19:24:37.200 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:37.247 [info] Extension signature verification result for shd101wyy.markdown-preview-enhanced: UnknownError. Executed: true. Duration: 10ms.
+2024-11-12 19:24:37.279 [info] Extension signature verification result for james-yu.latex-workshop: UnknownError. Executed: true. Duration: 11ms.
+2024-11-12 19:24:37.343 [info] Extension signature verification result for ms-dotnettools.vscode-dotnet-runtime: UnknownError. Executed: true. Duration: 11ms.
+2024-11-12 19:24:37.422 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-vscode-remote.remote-containers-0.388.0: ms-vscode-remote.remote-containers
+2024-11-12 19:24:37.427 [info] Renamed to /home/endo/.vscode/extensions/ms-vscode-remote.remote-containers-0.388.0
+2024-11-12 19:24:37.430 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3: ms-azuretools.vscode-docker
+2024-11-12 19:24:37.444 [info] Renamed to /home/endo/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3
+2024-11-12 19:24:37.446 [info] Extension signature verification result for github.copilot-chat: UnknownError. Executed: true. Duration: 8ms.
+2024-11-12 19:24:37.484 [info] Extension signature verification result for github.copilot: UnknownError. Executed: true. Duration: 9ms.
+2024-11-12 19:24:37.495 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:37.548 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-dotnettools.vscode-dotnet-runtime-2.2.2: ms-dotnettools.vscode-dotnet-runtime
+2024-11-12 19:24:37.552 [info] Renamed to /home/endo/.vscode/extensions/ms-dotnettools.vscode-dotnet-runtime-2.2.2
+2024-11-12 19:24:37.992 [info] Extracted extension to file:///home/endo/.vscode/extensions/github.copilot-chat-0.22.2: github.copilot-chat
+2024-11-12 19:24:38.005 [info] Renamed to /home/endo/.vscode/extensions/github.copilot-chat-0.22.2
+2024-11-12 19:24:38.102 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:38.200 [info] Extracted extension to file:///home/endo/.vscode/extensions/github.copilot-1.245.0: github.copilot
+2024-11-12 19:24:38.215 [info] Renamed to /home/endo/.vscode/extensions/github.copilot-1.245.0
+2024-11-12 19:24:38.265 [info] Extracted extension to file:///home/endo/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.15: shd101wyy.markdown-preview-enhanced
+2024-11-12 19:24:38.270 [info] Renamed to /home/endo/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.15
+2024-11-12 19:24:38.301 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:38.370 [info] Extension signature verification result for ms-vscode.powershell: UnknownError. Executed: true. Duration: 17ms.
+2024-11-12 19:24:39.307 [info] Extracted extension to file:///home/endo/.vscode/extensions/james-yu.latex-workshop-10.5.6: james-yu.latex-workshop
+2024-11-12 19:24:39.323 [info] Renamed to /home/endo/.vscode/extensions/james-yu.latex-workshop-10.5.6
+2024-11-12 19:24:39.411 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:40.321 [info] Extension signature verification result for ms-python.debugpy: UnknownError. Executed: true. Duration: 13ms.
+2024-11-12 19:24:40.969 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-vscode.powershell-2024.4.0: ms-vscode.powershell
+2024-11-12 19:24:40.985 [info] Renamed to /home/endo/.vscode/extensions/ms-vscode.powershell-2024.4.0
+2024-11-12 19:24:41.015 [info] Extension signature verification result for ms-python.python: UnknownError. Executed: true. Duration: 22ms.
+2024-11-12 19:24:41.095 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:41.253 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-python.debugpy-2024.12.0-linux-x64: ms-python.debugpy
+2024-11-12 19:24:41.266 [info] Renamed to /home/endo/.vscode/extensions/ms-python.debugpy-2024.12.0-linux-x64
+2024-11-12 19:24:41.354 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:42.309 [info] Extension signature verification result for ms-python.vscode-pylance: UnknownError. Executed: true. Duration: 16ms.
+2024-11-12 19:24:42.883 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-python.python-2024.20.0-linux-x64: ms-python.python
+2024-11-12 19:24:42.896 [info] Renamed to /home/endo/.vscode/extensions/ms-python.python-2024.20.0-linux-x64
+2024-11-12 19:24:42.981 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:45.004 [info] Extension signature verification result for ms-dotnettools.csharp: UnknownError. Executed: true. Duration: 11ms.
+2024-11-12 19:24:47.539 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-python.vscode-pylance-2024.11.1: ms-python.vscode-pylance
+2024-11-12 19:24:47.555 [info] Renamed to /home/endo/.vscode/extensions/ms-python.vscode-pylance-2024.11.1
+2024-11-12 19:24:47.653 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:24:51.094 [info] Extracted extension to file:///home/endo/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64: ms-dotnettools.csharp
+2024-11-12 19:24:51.124 [info] Renamed to /home/endo/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64
+2024-11-12 19:24:51.187 [info] Extension installed successfully: ms-vscode-remote.remote-wsl vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: ms-vscode-remote.remote-containers vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: ms-azuretools.vscode-docker vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: ms-dotnettools.vscode-dotnet-runtime vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: github.copilot vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: shd101wyy.markdown-preview-enhanced vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.187 [info] Extension installed successfully: james-yu.latex-workshop vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.188 [info] Extension installed successfully: ms-vscode.powershell vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.188 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.188 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.188 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.188 [info] Extension installed successfully: ms-dotnettools.csharp vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:24:51.222 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

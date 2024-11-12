@@ -1,0 +1,65 @@
+2024-11-12 19:00:29.871 [info] Getting Manifest... continue.continue
+2024-11-12 19:00:29.936 [info] Installing extension: continue.continue {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:00:32.651 [info] Extension signature verification result for continue.continue: UnknownError. Executed: true. Duration: 15ms.
+2024-11-12 19:00:35.896 [info] Extracted extension to file:///home/endo/.vscode/extensions/continue.continue-0.8.56-linux-x64: continue.continue
+2024-11-12 19:00:35.911 [info] Renamed to /home/endo/.vscode/extensions/continue.continue-0.8.56-linux-x64
+2024-11-12 19:00:35.937 [info] Extension installed successfully: continue.continue vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:00:36.006 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:00:39.303 [info] Getting Manifest... supermaven.supermaven
+2024-11-12 19:00:39.321 [info] Installing extension: supermaven.supermaven {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:00:39.946 [info] Extension signature verification result for supermaven.supermaven: UnknownError. Executed: true. Duration: 16ms.
+2024-11-12 19:00:40.230 [info] Extracted extension to file:///home/endo/.vscode/extensions/supermaven.supermaven-1.1.12-linux-x64: supermaven.supermaven
+2024-11-12 19:00:40.235 [info] Renamed to /home/endo/.vscode/extensions/supermaven.supermaven-1.1.12-linux-x64
+2024-11-12 19:00:40.259 [info] Extension installed successfully: supermaven.supermaven vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:00:40.333 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:00:45.311 [info] Getting Manifest... saoudrizwan.claude-dev
+2024-11-12 19:00:45.338 [info] Installing extension: saoudrizwan.claude-dev {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:00:46.165 [info] Extension signature verification result for saoudrizwan.claude-dev: UnknownError. Executed: true. Duration: 8ms.
+2024-11-12 19:00:46.889 [info] Extracted extension to file:///home/endo/.vscode/extensions/saoudrizwan.claude-dev-2.1.4: saoudrizwan.claude-dev
+2024-11-12 19:00:46.895 [info] Renamed to /home/endo/.vscode/extensions/saoudrizwan.claude-dev-2.1.4
+2024-11-12 19:00:46.923 [info] Extension installed successfully: saoudrizwan.claude-dev vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:00:46.991 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:01:00.686 [info] Getting Manifest... ritwickdey.liveserver
+2024-11-12 19:01:00.709 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:01:01.186 [info] Extension signature verification result for ritwickdey.liveserver: UnknownError. Executed: true. Duration: 15ms.
+2024-11-12 19:01:03.705 [info] Extracted extension to file:///home/endo/.vscode/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-11-12 19:01:03.719 [info] Renamed to /home/endo/.vscode/extensions/ritwickdey.liveserver-5.7.9
+2024-11-12 19:01:03.740 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:01:03.808 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-12 19:01:18.479 [info] Getting Manifest... yzane.markdown-pdf
+2024-11-12 19:01:18.514 [info] Installing extension: yzane.markdown-pdf {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 19:01:19.062 [info] Extension signature verification result for yzane.markdown-pdf: UnknownError. Executed: true. Duration: 11ms.
+2024-11-12 19:01:20.657 [info] Extracted extension to file:///home/endo/.vscode/extensions/yzane.markdown-pdf-1.5.0: yzane.markdown-pdf
+2024-11-12 19:01:20.669 [info] Renamed to /home/endo/.vscode/extensions/yzane.markdown-pdf-1.5.0
+2024-11-12 19:01:20.696 [info] Extension installed successfully: yzane.markdown-pdf vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 19:01:20.774 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

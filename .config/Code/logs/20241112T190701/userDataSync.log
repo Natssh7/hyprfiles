@@ -1,0 +1,16 @@
+2024-11-12 19:07:02.541 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-11-12 19:07:02.541 [info] Auto Sync is enabled.
+2024-11-12 19:07:02.541 [info] Auto Sync: Suspended until auth token is available.
+2024-11-12 19:07:10.210 [info] Auto Sync: Triggered by Interval
+2024-11-12 19:07:10.210 [info] Sync started.
+2024-11-12 19:07:10.455 [info] Settings: No changes found during synchronizing settings.
+2024-11-12 19:07:10.475 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-11-12 19:07:10.481 [info] Snippets: No changes found during synchronizing snippets.
+2024-11-12 19:07:10.484 [info] Tasks: No changes found during synchronizing tasks.
+2024-11-12 19:07:10.740 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2.
+2024-11-12 19:07:10.744 [info] GlobalState: Updated last synchronized ui state
+2024-11-12 19:07:10.772 [info] Extensions: No changes found during synchronizing extensions.
+2024-11-12 19:07:10.774 [info] Profiles: No changes found during synchronizing profiles.
+2024-11-12 19:07:10.776 [info] Sync done. Took 567ms
+2024-11-12 19:07:19.746 [info] Auto Sync: Suspended until auth token is available.
+2024-11-12 19:07:19.746 [info] Auto Sync: Stopped

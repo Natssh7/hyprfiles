@@ -1,0 +1,40 @@
+2024-11-12 18:55:25.689 [info] Getting sessions for all scopes...
+2024-11-12 18:55:25.689 [info] Got 1 sessions for all scopes...
+2024-11-12 18:55:25.691 [info]  for undefined
+2024-11-12 18:55:25.691 [info] [email offline_access openid profile] Got 1 sessions
+2024-11-12 18:55:25.691 [info] Getting sessions for all scopes...
+2024-11-12 18:55:25.692 [info] Got 1 sessions for all scopes...
+2024-11-12 18:55:25.693 [info]  for undefined
+2024-11-12 18:55:25.693 [info] [email offline_access openid profile] Got 1 sessions
+2024-11-12 18:55:26.887 [info] Getting sessions for all scopes...
+2024-11-12 18:55:26.887 [info] Got 1 sessions for all scopes...
+2024-11-12 18:55:29.082 [info]  for undefined
+2024-11-12 18:55:32.751 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/328f15b7-f655-4456-b1b7-a591495bbfc8' session successfully created!
+2024-11-12 18:55:32.753 [info]  for undefined
+2024-11-12 18:55:32.754 [info] [email offline_access openid profile] Got 2 sessions
+2024-11-12 18:55:32.758 [info]  for undefined
+2024-11-12 18:55:32.758 [info] [email offline_access openid profile] Got 2 sessions
+2024-11-12 18:55:45.611 [info]  for undefined
+2024-11-12 18:55:45.611 [info] [email offline_access openid profile] Got 2 sessions
+2024-11-12 18:55:45.715 [info]  for undefined
+2024-11-12 18:55:45.715 [info] [email offline_access openid profile] Got 2 sessions
+2024-11-12 18:57:57.133 [info] Getting sessions for all scopes...
+2024-11-12 18:57:57.134 [info] Got 2 sessions for all scopes...
+2024-11-12 18:57:59.199 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/2453ac5a-6a4f-4c7a-ad9f-67245a518dc3' Logging out of session
+2024-11-12 18:57:59.199 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/2453ac5a-6a4f-4c7a-ad9f-67245a518dc3' Logged out of session successfully!
+2024-11-12 18:57:59.200 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/328f15b7-f655-4456-b1b7-a591495bbfc8' Logging out of session
+2024-11-12 18:57:59.213 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/328f15b7-f655-4456-b1b7-a591495bbfc8' Logged out of session successfully!
+2024-11-12 18:57:59.213 [info]  for undefined
+2024-11-12 18:57:59.213 [info] [email offline_access openid profile] Got 0 sessions
+2024-11-12 18:58:03.460 [info]  for undefined
+2024-11-12 18:58:14.877 [error] [email offline_access openid profile] Error creating session: Error: access_denied
+2024-11-12 18:58:14.881 [info]  for undefined
+2024-11-12 18:58:14.881 [info] [email offline_access openid profile] Got 0 sessions
+2024-11-12 18:59:00.993 [info]  for undefined
+2024-11-12 18:59:21.011 [error] [email offline_access openid profile] Error creating session: Error: access_denied
+2024-11-12 18:59:35.009 [info]  for undefined
+2024-11-12 18:59:38.718 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/dbd07693-0e85-4226-bd0a-a0933b23309d' session successfully created!
+2024-11-12 18:59:46.460 [info]  for undefined
+2024-11-12 18:59:50.501 [info] [email offline_access openid profile] 'f8cdef31-a31e-4b4a-93e4-5f571e91255a/1:live.com:00030000174F7408/cbe3c635-c0bc-4b9e-96b2-aea9ba838a16' session successfully created!
+2024-11-12 18:59:50.508 [info]  for undefined
+2024-11-12 18:59:50.508 [info] [email offline_access openid profile] Got 2 sessions

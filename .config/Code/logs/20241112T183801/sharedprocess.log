@@ -1,0 +1,13 @@
+2024-11-12 18:39:05.987 [info] Getting Manifest... arcticicestudio.nord-visual-studio-code
+2024-11-12 18:39:06.048 [info] Installing extension: arcticicestudio.nord-visual-studio-code {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/endo/.vscode/extensions/extensions.json","path":"/home/endo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-12 18:39:06.458 [info] Extension signature verification result for arcticicestudio.nord-visual-studio-code: UnknownError. Executed: true. Duration: 17ms.
+2024-11-12 18:39:06.490 [info] Extracted extension to file:///home/endo/.vscode/extensions/arcticicestudio.nord-visual-studio-code-0.19.0: arcticicestudio.nord-visual-studio-code
+2024-11-12 18:39:06.493 [info] Renamed to /home/endo/.vscode/extensions/arcticicestudio.nord-visual-studio-code-0.19.0
+2024-11-12 18:39:06.514 [info] Extension installed successfully: arcticicestudio.nord-visual-studio-code vscode-userdata:/home/endo/.vscode/extensions/extensions.json
+2024-11-12 18:39:06.583 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/endo/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
