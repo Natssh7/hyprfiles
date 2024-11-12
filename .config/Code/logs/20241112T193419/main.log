@@ -1,5 +1,0 @@
-2024-11-12 19:34:19.597 [info] update#setState idle
-2024-11-12 19:34:49.541 [info] update#setState checking for updates
-2024-11-12 19:34:49.671 [info] update#setState idle
-2024-11-12 19:35:40.173 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown
-2024-11-12 19:35:40.181 [info] Extension host with pid 52794 exited with code: 0, signal: unknown.
