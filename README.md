@@ -14,7 +14,7 @@ This is my Nord themed Arch and Hyprland Rice
 From AUR and official repo
 
 ```
-paru -S hyprland nvidia-utils nvidia-open-dkms cloudflare-warp-bin flatpak flatseal rofi pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat aylurs-gtk-shell-git nitch cava starship kitty rofi waypaper linux-headers thunar hyprpaper
+paru -S hyprland nvidia-utils nvidia-open-dkms cloudflare-warp-bin flatpak flatseal rofi pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat aylurs-gtk-shell-git nitch cava starship kitty rofi waypaper linux-headers thunar hyprpaper network-manage-applet
 ```
 
 From Flatpak
